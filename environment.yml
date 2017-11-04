@@ -2,15 +2,20 @@ name: datagram
 channels:
 - defaults
 dependencies:
+- asn1crypto=0.22.0=py36h8e79faa_1
 - bleach=2.0.0=py36h0a7e3d6_0
 - ca-certificates=2017.08.26=h94faf87_0
 - certifi=2017.7.27.1=py36h043bc9e_0
+- cffi=1.10.0=py36hae3d1b5_1
+- chardet=3.0.4=py36h420ce6e_1
 - colorama=0.3.9=py36h029ae33_0
+- cryptography=2.0.3=py36h123decb_1
 - decorator=4.1.2=py36he63a57b_0
 - entrypoints=0.2.3=py36hfd66bb0_2
 - html5lib=0.999999999=py36ha09b1f3_0
 - icc_rt=2017.0.4=h97af966_0
 - icu=58.2=vc14hc45fdbb_0
+- idna=2.6=py36h148d497_1
 - intel-openmp=2018.0.0=hcd89f80_7
 - ipykernel=4.6.1=py36hbb77b34_0
 - ipython=6.1.0=py36h236ecc8_1
@@ -39,14 +44,18 @@ dependencies:
 - pickleshare=0.7.4=py36h9de030f_0
 - pip=9.0.1=py36h226ae91_4
 - prompt_toolkit=1.0.15=py36h60b8f86_0
+- pycparser=2.18=py36hd053e01_1
 - pygments=2.2.0=py36hb010967_0
+- pyopenssl=17.2.0=py36h15ca2fc_0
 - pyqt=5.6.0=py36hb5ed885_5
+- pysocks=1.6.7=py36h698d350_1
 - python=3.6.3=h210ce5f_2
 - python-dateutil=2.6.1=py36h509ddcb_1
 - pytz=2017.2=py36h05d413f_1
 - pyzmq=16.0.2=py36h38c27d9_2
 - qt=5.6.2=vc14h6f8c307_12
 - qtconsole=4.3.1=py36h99a29a9_0
+- requests=2.18.4=py36h4371aae_1
 - setuptools=36.5.0=py36h65f9e6e_0
 - simplegeneric=0.8.1=py36heab741f_0
 - sip=4.18.1=py36h9c25514_2
@@ -55,12 +64,14 @@ dependencies:
 - testpath=0.3.1=py36h2698cfe_0
 - tornado=4.5.2=py36h57f6048_0
 - traitlets=4.3.2=py36h096827d_0
+- urllib3=1.22=py36h276f60a_0
 - vc=14=h2379b0c_2
 - vs2015_runtime=14.0.25123=hd4c4e62_2
 - wcwidth=0.1.7=py36h3d5aa90_0
 - webencodings=0.5.1=py36h67c50ae_1
 - wheel=0.29.0=py36h6ce6cde_1
 - widgetsnbextension=3.0.2=py36h364476f_1
+- win_inet_pton=1.0.1=py36he67d7fd_1
 - wincertstore=0.2=py36h7fe50ca_0
 - zlib=1.2.11=vc14h1cdd9ab_1
 - pip:
@@ -69,3 +80,4 @@ dependencies:
   - jupyter-console==5.2.0
   - jupyter-core==4.3.0
   - prompt-toolkit==1.0.15
+  - win-inet-pton==1.0.1
