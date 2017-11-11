@@ -10,8 +10,10 @@ dependencies:
 - chardet=3.0.4=py36h420ce6e_1
 - colorama=0.3.9=py36h029ae33_0
 - cryptography=2.0.3=py36h123decb_1
+- cycler=0.10.0=py36h009560c_0
 - decorator=4.1.2=py36he63a57b_0
 - entrypoints=0.2.3=py36hfd66bb0_2
+- freetype=2.8=vc14h17c9bdf_0
 - html5lib=0.999999999=py36ha09b1f3_0
 - icc_rt=2017.0.4=h97af966_0
 - icu=58.2=vc14hc45fdbb_0
@@ -31,6 +33,7 @@ dependencies:
 - jupyter_core=4.3.0=py36h511e818_0
 - libpng=1.6.32=vc14h5163883_3
 - markupsafe=1.0=py36h0e26971_1
+- matplotlib=2.1.0=py36h11b4b9c_0
 - mistune=0.7.4=py36h4874169_0
 - mkl=2018.0.0=h36b65af_4
 - nbconvert=5.3.1=py36h8dc0fde_0
@@ -47,6 +50,7 @@ dependencies:
 - pycparser=2.18=py36hd053e01_1
 - pygments=2.2.0=py36hb010967_0
 - pyopenssl=17.2.0=py36h15ca2fc_0
+- pyparsing=2.2.0=py36h785a196_1
 - pyqt=5.6.0=py36hb5ed885_5
 - pysocks=1.6.7=py36h698d350_1
 - python=3.6.3=h210ce5f_2
